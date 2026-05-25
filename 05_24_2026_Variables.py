@@ -57,3 +57,5 @@ print ("Hello, world".replace("world","Python")) # This will print 'Hello, Pytho
 
 print ("Hello, world".split(",")) # This will print ['Hello', ' world'] because we are calling the split() method on the string 'Hello, world', which splits the string into a list of substrings based on the delimiter ','.
 
+print ("Hello World".lower())
+
