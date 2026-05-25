@@ -47,15 +47,37 @@
 
 # print ("Py" in str1) # This will raise an error because 'py' is not defined as a variable. If you want to check if the substring 'py' is in the string 'Python', you should use quotes around 'py', like this: 'py' in str1. This will return False because 'py' is not a substring of 'Python'.    
 
-print ("Python".upper()) # This will print 'PYTHON' because we are calling the upper() method on the string 'Python', which converts all characters to uppercase.
+# print ("Python".upper()) # This will print 'PYTHON' because we are calling the upper() method on the string 'Python', which converts all characters to uppercase.
 
-print ("PYTHON".lower()) # This will print 'python' because we are calling the lower() method on the string 'PYTHON', which converts all characters to lowercase.
+# print ("PYTHON".lower()) # This will print 'python' because we are calling the lower() method on the string 'PYTHON', which converts all characters to lowercase.
 
-print ("   Hello, World!   ".strip()) # This will print 'Hello, World!' because we are calling the strip() method on the string '   Hello, World!   ', which removes any leading and trailing whitespace characters.
+# print ("   Hello, World!   ".strip()) # This will print 'Hello, World!' because we are calling the strip() method on the string '   Hello, World!   ', which removes any leading and trailing whitespace characters.
 
-print ("Hello, world".replace("world","Python")) # This will print 'Hello, Python' because we are calling the replace() method on the string 'Hello, world', which replaces all occurrences of the substring 'world' with the substring 'Python'.
+# print ("Hello, world".replace("world","Python")) # This will print 'Hello, Python' because we are calling the replace() method on the string 'Hello, world', which replaces all occurrences of the substring 'world' with the substring 'Python'.
 
-print ("Hello, world".split(",")) # This will print ['Hello', ' world'] because we are calling the split() method on the string 'Hello, world', which splits the string into a list of substrings based on the delimiter ','.
+# print ("Hello, world".split(",")) # This will print ['Hello', ' world'] because we are calling the split() method on the string 'Hello, world', which splits the string into a list of substrings based on the delimiter ','.
 
-print ("Hello World".lower())
+# print ("Hello World".lower())
+
+# print (",".join(["Hello", "World"]).replace(","," ")) # This will print 'Hello,World' because we are calling the join() method on the string ',', which concatenates the elements of the list ['Hello', 'World'] into a single string with ',' as the separator.
+
+str2 = "PYTHON"
+
+# for ch in str2:
+#     print (ch) # This will print each character of the string 'PYTHON' on a new line because we are iterating over the string using a for loop and printing each character.
+
+
+for ch in str2[::-1]:
+    print (ch) # This will print each character of the string 'PYTHON' in reverse order on a new line because we are slicing the string with a step of -1, which reverses the string, and then iterating over it with a for loop to print each character.
+
+
+str3 ="Welcome"
+str4 = "to Python programming"
+
+msg = f"{str3} {str4}" # This will create a formatted string using an f-string, which allows us to embed expressions inside string literals. The resulting string will be 'Welcome to Python programming' because we are concatenating the values of str3 and str4 with a space in between.
+print ("Formated Message: " +msg)
+
+print("Hello \n World") # This will print 'Hello' and 'World' on separate lines because we are using the newline character (\n) to indicate a line break in the string.
+
+print ("Hello \t World") # This will print 'Hello' and 'World' separated by a tab space because we are using the tab character (\t) to indicate a horizontal tab in the string.   
 
