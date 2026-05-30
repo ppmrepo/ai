@@ -1,0 +1,6 @@
+name,age,salary,dept
+Alice,30,100000,101
+Bob,25,20000,101
+Charlie,35,5000000,102
+dave,40,,103
+eve,300000,,102
